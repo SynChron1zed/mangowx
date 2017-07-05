@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<view class="container">
+  <view bindtap="bindViewTap"  class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+     <text class="userinfo-h1" >请选择一个任务</text>
+  </view>
+  <view class="usermotto">
+   <view class="section">
+ <view class="second line">
+        <view class="sl-col" bindtap="bindItemggg">
+             <image class="second-img" mode="scaleToFill" src="/image/w1.png"></image>
+             <text class="time-text" >工作</text>
+        </view>
+        <view class="sl-col" bindtap="bindItemiii">
+            <image class="second-img" mode="scaleToFill" src="/image/w2.png"></image>
+            <text class="time-text">学习</text>
+        </view>
+        <view class="sl-col">
+             <image class="second-img" mode="scaleToFill" src="/image/w3.png"></image>
+            <text class="time-text">思考</text>
+        </view>
+        
+    </view>
+
+     <view class="second line">
+        <view class="sl-col">
+             <image class="second-img" mode="scaleToFill" src="/image/w4.png"></image>
+            <text class="time-text">写作</text>
+        </view>
+        <view class="sl-col">
+            <image class="second-img" mode="scaleToFill" src="/image/w5.png"></image>
+            <text class="time-text">运动</text>
+        </view>
+        <view class="sl-col">
+             <image class="second-img" mode="scaleToFill" src="/image/w6.png"></image>
+             <text class="time-text">阅读</text>
+        </view>
+        
+    </view>
+
+</view>
+  </view>
+</view>
+
+
+

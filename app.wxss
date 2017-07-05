@@ -1,0 +1,39 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  
+} 
+
+.containerNew {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background: linear-gradient(to top, rgba(0, 52, 161, 0),rgb(0, 215, 255));
+} 
+
+.bc_green{
+    background-color: #09BB07;
+}
+.bc_red{
+    background-color: #F76260;
+}
+.bc_blue{
+    background-color: #10AEFF;
+}
+.bc_yellow{
+    background-color: #FFBE00;
+}
+.bc_gray{
+    background-color: #C9C9C9;
+}
+.bc_zi{
+    background-color: #bd24d4
+}

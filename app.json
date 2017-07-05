@@ -1,0 +1,36 @@
+{
+  "pages":[
+     "pages/index/index",
+     "pages/logs/logs",
+     "pages/time/time",
+     "pages/mango/mango"
+    
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFF143",
+    "navigationBarTitleText": "芒果时刻",
+    "navigationBarTextStyle":"black"
+  }
+  ,
+  "tabBar": {
+    "color": "#9e9e9e",
+    "selectedColor": "#000000",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "Time",
+      "iconPath": "image/clock.png",
+       "selectedIconPath": "image/clock1.png"
+    
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "Home",
+      "iconPath": "image/account.png",
+       "selectedIconPath": "image/account1.png"
+    
+    }]
+  }
+}
